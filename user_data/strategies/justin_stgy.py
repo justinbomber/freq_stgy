@@ -254,4 +254,7 @@ class justinstrategy(IStrategy):
 
     def ema(self, df: DataFrame, period):
         return df.ewm(alpha=1 / period, min_periods=period).mean()
+    
+    def rsi(self, df: DataFrame, period):
+        return ta.RSI(df, timeperiod=period)
 
