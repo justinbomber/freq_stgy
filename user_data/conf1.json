@@ -73,7 +73,7 @@
     },
     "api_server": {
         "enabled": true,
-        "listen_ip_address": "0.0.0.0",
+        "listen_ip_address": "127.0.0.1",
         "listen_port": 9487,
         "verbosity": "error",
         "enable_openapi": false,
@@ -83,12 +83,8 @@
         "password": "justin"
     },
     "bot_name": "justinbot",
-    "user_data_dir": "C:\\Users\\justin\\Desktop\\ft_userdata\\user_data",
-    "strategy_path": "C:\\Users\\justin\\Desktop\\ft_userdata\\user_data",
-    "db_url": "sqlite://C:\\Users\\justin\\Desktop\\ft_userdata\\user_data\\trades_dryrun.sqlite",
     "initial_state": "running",
-    "strategy": "justinstrategy",
-    "force_entry_enable": false,
+    "force_entry_enable":true,
     "internals": {
         "process_throttle_secs": 1,
 	"heartbeat_interval": 1,

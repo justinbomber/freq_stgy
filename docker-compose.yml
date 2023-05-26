@@ -10,7 +10,7 @@ services:
     restart: unless-stopped
     container_name: freqtrade
     volumes:
-      - "C:\\Users\\justin\\Desktop\\ft_userdata\\user_data:/freqtrade/user_data" # ­×§ï¨÷¬M®g
+      - "C:\\Users\\justin\\Desktop\\ft_userdata\\user_data:/freqtrade/user_data" 
     # Expose api on port 8080 (localhost only)
     # Please read the https://www.freqtrade.io/en/stable/rest-api/ documentation
     # before enabling this.
