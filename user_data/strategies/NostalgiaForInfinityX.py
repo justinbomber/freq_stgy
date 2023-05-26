@@ -39,7 +39,6 @@ except ImportError:
 else:
     log.info("pandas_ta successfully imported")
 
-
 #############################################################################################################
 ##                NostalgiaForInfinityX by iterativ                                                        ##
 ##           https://github.com/iterativv/NostalgiaForInfinity                                             ##
@@ -108,8 +107,10 @@ else:
 ##  ByBit: https://partner.bybit.com/b/nfi                                                                 ##
 ##  Huobi: https://www.huobi.com/en-us/v/register/double-invite/?inviter_id=11345710&invite_code=ubpt2223  ##
 ##         (20% discount on trading fees)                                                                  ##
-##  Bitvavo: https://account.bitvavo.com/create?a=D22103A4BC (no fees for the first € 1000)                ##
+##  Bitvavo: https://account.bitvavo.com/create?a=D22103A4BC (no fees for the first ??? 1000)                ##
 #############################################################################################################
+
+
 
 
 class NostalgiaForInfinityX(IStrategy):
@@ -22826,7 +22827,7 @@ def williams_r(dataframe: DataFrame, period: int = 14) -> Series:
         of the past N days (for a given N). It was developed by a publisher and promoter of trading materials, Larry Williams.
         Its purpose is to tell whether a stock or commodity market is trading near the high or the low, or somewhere in between,
         of its recent trading range.
-        The oscillator is on a negative scale, from −100 (lowest) up to 0 (highest).
+        The oscillator is on a negative scale, from ???100 (lowest) up to 0 (highest).
     """
 
     highest_high = dataframe["high"].rolling(center=False, window=period).max()
