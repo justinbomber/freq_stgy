@@ -1,0 +1,270 @@
+2023-05-24 08:39:26,154 - freqtrade.loggers - INFO - Verbosity set to 0
+2023-05-24 08:39:26,155 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2023-05-24 08:39:26,156 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2023-05-24 08:39:26,157 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2023-05-24 08:39:26,158 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2023-05-24 08:39:26,159 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2023-05-24 08:39:26,231 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2023-05-24 08:39:26,233 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2023-05-24 08:39:26,235 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2023-05-24 08:39:26,247 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2023-05-24 08:39:26,248 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2023-05-24 08:39:26,327 - freqtrade.commands.trade_commands - ERROR - Impossible to load Strategy 'SampleStrategy'. This class does not exist or contains Python code errors.
+2023-05-24 08:39:26,328 - freqtrade.commands.trade_commands - ERROR - Fatal exception!
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/commands/trade_commands.py", line 24, in start_trading
+    worker = Worker(args)
+  File "/freqtrade/freqtrade/worker.py", line 37, in __init__
+    self._init(False)
+  File "/freqtrade/freqtrade/worker.py", line 53, in _init
+    self.freqtrade = FreqtradeBot(self._config)
+  File "/freqtrade/freqtrade/freqtradebot.py", line 67, in __init__
+    self.strategy: IStrategy = StrategyResolver.load_strategy(self.config)
+  File "/freqtrade/freqtrade/resolvers/strategy_resolver.py", line 48, in load_strategy
+    strategy: IStrategy = StrategyResolver._load_strategy(
+  File "/freqtrade/freqtrade/resolvers/strategy_resolver.py", line 274, in _load_strategy
+    raise OperationalException(
+freqtrade.exceptions.OperationalException: Impossible to load Strategy 'SampleStrategy'. This class does not exist or contains Python code errors.
+2023-05-24 08:39:29,976 - freqtrade.loggers - INFO - Verbosity set to 0
+2023-05-24 08:39:29,977 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2023-05-24 08:39:29,978 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2023-05-24 08:39:29,979 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2023-05-24 08:39:29,980 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2023-05-24 08:39:29,980 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2023-05-24 08:39:30,031 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2023-05-24 08:39:30,033 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2023-05-24 08:39:30,035 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2023-05-24 08:39:30,047 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2023-05-24 08:39:30,047 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2023-05-24 08:39:30,089 - freqtrade.commands.trade_commands - ERROR - Impossible to load Strategy 'SampleStrategy'. This class does not exist or contains Python code errors.
+2023-05-24 08:39:30,090 - freqtrade.commands.trade_commands - ERROR - Fatal exception!
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/commands/trade_commands.py", line 24, in start_trading
+    worker = Worker(args)
+  File "/freqtrade/freqtrade/worker.py", line 37, in __init__
+    self._init(False)
+  File "/freqtrade/freqtrade/worker.py", line 53, in _init
+    self.freqtrade = FreqtradeBot(self._config)
+  File "/freqtrade/freqtrade/freqtradebot.py", line 67, in __init__
+    self.strategy: IStrategy = StrategyResolver.load_strategy(self.config)
+  File "/freqtrade/freqtrade/resolvers/strategy_resolver.py", line 48, in load_strategy
+    strategy: IStrategy = StrategyResolver._load_strategy(
+  File "/freqtrade/freqtrade/resolvers/strategy_resolver.py", line 274, in _load_strategy
+    raise OperationalException(
+freqtrade.exceptions.OperationalException: Impossible to load Strategy 'SampleStrategy'. This class does not exist or contains Python code errors.
+2023-05-24 08:39:33,648 - freqtrade.loggers - INFO - Verbosity set to 0
+2023-05-24 08:39:33,649 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2023-05-24 08:39:33,650 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2023-05-24 08:39:33,651 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2023-05-24 08:39:33,651 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2023-05-24 08:39:33,652 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2023-05-24 08:39:33,702 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2023-05-24 08:39:33,704 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2023-05-24 08:39:33,706 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2023-05-24 08:39:33,718 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2023-05-24 08:39:33,718 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2023-05-24 08:39:33,759 - freqtrade.commands.trade_commands - ERROR - Impossible to load Strategy 'SampleStrategy'. This class does not exist or contains Python code errors.
+2023-05-24 08:39:33,760 - freqtrade.commands.trade_commands - ERROR - Fatal exception!
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/commands/trade_commands.py", line 24, in start_trading
+    worker = Worker(args)
+  File "/freqtrade/freqtrade/worker.py", line 37, in __init__
+    self._init(False)
+  File "/freqtrade/freqtrade/worker.py", line 53, in _init
+    self.freqtrade = FreqtradeBot(self._config)
+  File "/freqtrade/freqtrade/freqtradebot.py", line 67, in __init__
+    self.strategy: IStrategy = StrategyResolver.load_strategy(self.config)
+  File "/freqtrade/freqtrade/resolvers/strategy_resolver.py", line 48, in load_strategy
+    strategy: IStrategy = StrategyResolver._load_strategy(
+  File "/freqtrade/freqtrade/resolvers/strategy_resolver.py", line 274, in _load_strategy
+    raise OperationalException(
+freqtrade.exceptions.OperationalException: Impossible to load Strategy 'SampleStrategy'. This class does not exist or contains Python code errors.
+2023-05-24 08:39:37,126 - freqtrade.loggers - INFO - Verbosity set to 0
+2023-05-24 08:39:37,127 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2023-05-24 08:39:37,128 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2023-05-24 08:39:37,129 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2023-05-24 08:39:37,130 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2023-05-24 08:39:37,130 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2023-05-24 08:39:37,188 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2023-05-24 08:39:37,190 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2023-05-24 08:39:37,192 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2023-05-24 08:39:37,204 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2023-05-24 08:39:37,205 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2023-05-24 08:39:37,252 - freqtrade.commands.trade_commands - ERROR - Impossible to load Strategy 'SampleStrategy'. This class does not exist or contains Python code errors.
+2023-05-24 08:39:37,254 - freqtrade.commands.trade_commands - ERROR - Fatal exception!
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/commands/trade_commands.py", line 24, in start_trading
+    worker = Worker(args)
+  File "/freqtrade/freqtrade/worker.py", line 37, in __init__
+    self._init(False)
+  File "/freqtrade/freqtrade/worker.py", line 53, in _init
+    self.freqtrade = FreqtradeBot(self._config)
+  File "/freqtrade/freqtrade/freqtradebot.py", line 67, in __init__
+    self.strategy: IStrategy = StrategyResolver.load_strategy(self.config)
+  File "/freqtrade/freqtrade/resolvers/strategy_resolver.py", line 48, in load_strategy
+    strategy: IStrategy = StrategyResolver._load_strategy(
+  File "/freqtrade/freqtrade/resolvers/strategy_resolver.py", line 274, in _load_strategy
+    raise OperationalException(
+freqtrade.exceptions.OperationalException: Impossible to load Strategy 'SampleStrategy'. This class does not exist or contains Python code errors.
+2023-05-24 08:39:41,214 - freqtrade.loggers - INFO - Verbosity set to 0
+2023-05-24 08:39:41,215 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2023-05-24 08:39:41,215 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2023-05-24 08:39:41,216 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2023-05-24 08:39:41,217 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2023-05-24 08:39:41,218 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2023-05-24 08:39:41,271 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2023-05-24 08:39:41,274 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2023-05-24 08:39:41,275 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2023-05-24 08:39:41,290 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2023-05-24 08:39:41,291 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2023-05-24 08:39:41,331 - freqtrade.commands.trade_commands - ERROR - Impossible to load Strategy 'SampleStrategy'. This class does not exist or contains Python code errors.
+2023-05-24 08:39:41,332 - freqtrade.commands.trade_commands - ERROR - Fatal exception!
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/commands/trade_commands.py", line 24, in start_trading
+    worker = Worker(args)
+  File "/freqtrade/freqtrade/worker.py", line 37, in __init__
+    self._init(False)
+  File "/freqtrade/freqtrade/worker.py", line 53, in _init
+    self.freqtrade = FreqtradeBot(self._config)
+  File "/freqtrade/freqtrade/freqtradebot.py", line 67, in __init__
+    self.strategy: IStrategy = StrategyResolver.load_strategy(self.config)
+  File "/freqtrade/freqtrade/resolvers/strategy_resolver.py", line 48, in load_strategy
+    strategy: IStrategy = StrategyResolver._load_strategy(
+  File "/freqtrade/freqtrade/resolvers/strategy_resolver.py", line 274, in _load_strategy
+    raise OperationalException(
+freqtrade.exceptions.OperationalException: Impossible to load Strategy 'SampleStrategy'. This class does not exist or contains Python code errors.
+2023-05-24 08:39:45,995 - freqtrade.loggers - INFO - Verbosity set to 0
+2023-05-24 08:39:45,996 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2023-05-24 08:39:45,997 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2023-05-24 08:39:45,998 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2023-05-24 08:39:45,998 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2023-05-24 08:39:45,999 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2023-05-24 08:39:46,053 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2023-05-24 08:39:46,055 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2023-05-24 08:39:46,057 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2023-05-24 08:39:46,070 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2023-05-24 08:39:46,071 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2023-05-24 08:39:46,109 - freqtrade.commands.trade_commands - ERROR - Impossible to load Strategy 'SampleStrategy'. This class does not exist or contains Python code errors.
+2023-05-24 08:39:46,110 - freqtrade.commands.trade_commands - ERROR - Fatal exception!
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/commands/trade_commands.py", line 24, in start_trading
+    worker = Worker(args)
+  File "/freqtrade/freqtrade/worker.py", line 37, in __init__
+    self._init(False)
+  File "/freqtrade/freqtrade/worker.py", line 53, in _init
+    self.freqtrade = FreqtradeBot(self._config)
+  File "/freqtrade/freqtrade/freqtradebot.py", line 67, in __init__
+    self.strategy: IStrategy = StrategyResolver.load_strategy(self.config)
+  File "/freqtrade/freqtrade/resolvers/strategy_resolver.py", line 48, in load_strategy
+    strategy: IStrategy = StrategyResolver._load_strategy(
+  File "/freqtrade/freqtrade/resolvers/strategy_resolver.py", line 274, in _load_strategy
+    raise OperationalException(
+freqtrade.exceptions.OperationalException: Impossible to load Strategy 'SampleStrategy'. This class does not exist or contains Python code errors.
+2023-05-24 08:39:53,048 - freqtrade.loggers - INFO - Verbosity set to 0
+2023-05-24 08:39:53,049 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2023-05-24 08:39:53,050 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2023-05-24 08:39:53,051 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2023-05-24 08:39:53,052 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2023-05-24 08:39:53,052 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2023-05-24 08:39:53,117 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2023-05-24 08:39:53,120 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2023-05-24 08:39:53,121 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2023-05-24 08:39:53,134 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2023-05-24 08:39:53,135 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2023-05-24 08:39:53,184 - freqtrade.commands.trade_commands - ERROR - Impossible to load Strategy 'SampleStrategy'. This class does not exist or contains Python code errors.
+2023-05-24 08:39:53,186 - freqtrade.commands.trade_commands - ERROR - Fatal exception!
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/commands/trade_commands.py", line 24, in start_trading
+    worker = Worker(args)
+  File "/freqtrade/freqtrade/worker.py", line 37, in __init__
+    self._init(False)
+  File "/freqtrade/freqtrade/worker.py", line 53, in _init
+    self.freqtrade = FreqtradeBot(self._config)
+  File "/freqtrade/freqtrade/freqtradebot.py", line 67, in __init__
+    self.strategy: IStrategy = StrategyResolver.load_strategy(self.config)
+  File "/freqtrade/freqtrade/resolvers/strategy_resolver.py", line 48, in load_strategy
+    strategy: IStrategy = StrategyResolver._load_strategy(
+  File "/freqtrade/freqtrade/resolvers/strategy_resolver.py", line 274, in _load_strategy
+    raise OperationalException(
+freqtrade.exceptions.OperationalException: Impossible to load Strategy 'SampleStrategy'. This class does not exist or contains Python code errors.
+2023-05-24 08:40:03,065 - freqtrade.loggers - INFO - Verbosity set to 0
+2023-05-24 08:40:03,066 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2023-05-24 08:40:03,067 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2023-05-24 08:40:03,068 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2023-05-24 08:40:03,069 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2023-05-24 08:40:03,070 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2023-05-24 08:40:03,122 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2023-05-24 08:40:03,124 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2023-05-24 08:40:03,126 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2023-05-24 08:40:03,138 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2023-05-24 08:40:03,139 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2023-05-24 08:40:03,179 - freqtrade.commands.trade_commands - ERROR - Impossible to load Strategy 'SampleStrategy'. This class does not exist or contains Python code errors.
+2023-05-24 08:40:03,180 - freqtrade.commands.trade_commands - ERROR - Fatal exception!
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/commands/trade_commands.py", line 24, in start_trading
+    worker = Worker(args)
+  File "/freqtrade/freqtrade/worker.py", line 37, in __init__
+    self._init(False)
+  File "/freqtrade/freqtrade/worker.py", line 53, in _init
+    self.freqtrade = FreqtradeBot(self._config)
+  File "/freqtrade/freqtrade/freqtradebot.py", line 67, in __init__
+    self.strategy: IStrategy = StrategyResolver.load_strategy(self.config)
+  File "/freqtrade/freqtrade/resolvers/strategy_resolver.py", line 48, in load_strategy
+    strategy: IStrategy = StrategyResolver._load_strategy(
+  File "/freqtrade/freqtrade/resolvers/strategy_resolver.py", line 274, in _load_strategy
+    raise OperationalException(
+freqtrade.exceptions.OperationalException: Impossible to load Strategy 'SampleStrategy'. This class does not exist or contains Python code errors.
+2023-05-24 08:40:19,388 - freqtrade.loggers - INFO - Verbosity set to 0
+2023-05-24 08:40:19,389 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2023-05-24 08:40:19,390 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2023-05-24 08:40:19,391 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2023-05-24 08:40:19,392 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2023-05-24 08:40:19,393 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2023-05-24 08:40:19,449 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2023-05-24 08:40:19,452 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2023-05-24 08:40:19,453 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2023-05-24 08:40:19,466 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2023-05-24 08:40:19,467 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2023-05-24 08:40:19,515 - freqtrade.commands.trade_commands - ERROR - Impossible to load Strategy 'SampleStrategy'. This class does not exist or contains Python code errors.
+2023-05-24 08:40:19,516 - freqtrade.commands.trade_commands - ERROR - Fatal exception!
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/commands/trade_commands.py", line 24, in start_trading
+    worker = Worker(args)
+  File "/freqtrade/freqtrade/worker.py", line 37, in __init__
+    self._init(False)
+  File "/freqtrade/freqtrade/worker.py", line 53, in _init
+    self.freqtrade = FreqtradeBot(self._config)
+  File "/freqtrade/freqtrade/freqtradebot.py", line 67, in __init__
+    self.strategy: IStrategy = StrategyResolver.load_strategy(self.config)
+  File "/freqtrade/freqtrade/resolvers/strategy_resolver.py", line 48, in load_strategy
+    strategy: IStrategy = StrategyResolver._load_strategy(
+  File "/freqtrade/freqtrade/resolvers/strategy_resolver.py", line 274, in _load_strategy
+    raise OperationalException(
+freqtrade.exceptions.OperationalException: Impossible to load Strategy 'SampleStrategy'. This class does not exist or contains Python code errors.
+2023-05-24 08:40:48,482 - freqtrade.loggers - INFO - Verbosity set to 0
+2023-05-24 08:40:48,483 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2023-05-24 08:40:48,484 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2023-05-24 08:40:48,485 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2023-05-24 08:40:48,486 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2023-05-24 08:40:48,487 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2023-05-24 08:40:48,550 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2023-05-24 08:40:48,552 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2023-05-24 08:40:48,554 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2023-05-24 08:40:48,566 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2023-05-24 08:40:48,567 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2023-05-24 08:40:48,607 - freqtrade.commands.trade_commands - ERROR - Impossible to load Strategy 'SampleStrategy'. This class does not exist or contains Python code errors.
+2023-05-24 08:40:48,608 - freqtrade.commands.trade_commands - ERROR - Fatal exception!
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/commands/trade_commands.py", line 24, in start_trading
+    worker = Worker(args)
+  File "/freqtrade/freqtrade/worker.py", line 37, in __init__
+    self._init(False)
+  File "/freqtrade/freqtrade/worker.py", line 53, in _init
+    self.freqtrade = FreqtradeBot(self._config)
+  File "/freqtrade/freqtrade/freqtradebot.py", line 67, in __init__
+    self.strategy: IStrategy = StrategyResolver.load_strategy(self.config)
+  File "/freqtrade/freqtrade/resolvers/strategy_resolver.py", line 48, in load_strategy
+    strategy: IStrategy = StrategyResolver._load_strategy(
+  File "/freqtrade/freqtrade/resolvers/strategy_resolver.py", line 274, in _load_strategy
+    raise OperationalException(
+freqtrade.exceptions.OperationalException: Impossible to load Strategy 'SampleStrategy'. This class does not exist or contains Python code errors.

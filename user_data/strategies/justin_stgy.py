@@ -252,3 +252,6 @@ class justinstrategy(IStrategy):
                 result[i] = counting_number
         return result
 
+    def ema(self, df: DataFrame, period):
+        return df.ewm(alpha=1 / period, min_periods=period).mean()
+
