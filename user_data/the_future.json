@@ -54,10 +54,6 @@
             "refresh_period": 1800
         }
     ],
-    "ui": {
-    "enabled": true,
-    "port": 8080
-    },
     "telegram": {
         "enabled": false,
         "token": "",
@@ -67,15 +63,10 @@
         "enabled": true,
         "listen_ip_address": "0.0.0.0",
         "listen_port": 8080,
-        "verbosity": "error",
-        "enable_openapi": false,
-        "jwt_secret_key": "supersecretkey",
-        "ws_token": "J1J6zVMO3XuD6HiIgMl_J3urf_voStNF_Q",
-        "CORS_origins": ["https://frequi.freqtrade.io"],
         "username": "dcd",
         "password": "dcd "
     },
-    "bot_name": "freqtrade",
+    "bot_name": "justinbottest1",
     "initial_state": "running",
     "force_entry_enable": false,
     "internals": {
