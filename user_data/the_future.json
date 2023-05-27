@@ -54,22 +54,26 @@
             "refresh_period": 1800
         }
     ],
+    "ui": {
+    "enabled": true,
+    "port": 8080
+    },
     "telegram": {
         "enabled": false,
         "token": "",
         "chat_id": ""
     },
     "api_server": {
-        "enabled": false,
-        "listen_ip_address": "127.0.0.1",
+        "enabled": true,
+        "listen_ip_address": "0.0.0.0",
         "listen_port": 8080,
         "verbosity": "error",
         "enable_openapi": false,
-        "jwt_secret_key": "695be37d432133cfd2d624e313ab0c56376629e12eacfd7b740d71a7fe700a9b",
+        "jwt_secret_key": "supersecretkey",
         "ws_token": "J1J6zVMO3XuD6HiIgMl_J3urf_voStNF_Q",
-        "CORS_origins": [],
-        "username": "",
-        "password": ""
+        "CORS_origins": ["https://frequi.freqtrade.io"],
+        "username": "dcd",
+        "password": "dcd "
     },
     "bot_name": "freqtrade",
     "initial_state": "running",

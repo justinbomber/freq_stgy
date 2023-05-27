@@ -268,3 +268,51 @@ Traceback (most recent call last):
   File "/freqtrade/freqtrade/resolvers/strategy_resolver.py", line 274, in _load_strategy
     raise OperationalException(
 freqtrade.exceptions.OperationalException: Impossible to load Strategy 'SampleStrategy'. This class does not exist or contains Python code errors.
+2023-05-26 12:08:32,686 - freqtrade.loggers - INFO - Verbosity set to 0
+2023-05-26 12:08:32,687 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2023-05-26 12:08:32,688 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2023-05-26 12:08:32,688 - freqtrade.configuration.configuration - WARNING - `force_entry_enable` RPC message enabled.
+2023-05-26 12:08:32,689 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2023-05-26 12:08:32,689 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2023-05-26 12:08:32,690 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 1 ...
+2023-05-26 12:08:32,773 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2023-05-26 12:08:32,775 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2023-05-26 12:08:32,777 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2023-05-26 12:08:32,789 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2023-05-26 12:08:32,790 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2023-05-26 12:08:32,827 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy justinstrategy from '/freqtrade/user_data/strategies/justin_stgy.py'...
+2023-05-26 12:08:32,828 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2023-05-26 12:08:32,829 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2023-05-26 12:08:32,830 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: 1000.
+2023-05-26 12:08:32,830 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2023-05-26 12:08:32,831 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 1.
+2023-05-26 12:08:32,831 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 100}
+2023-05-26 12:08:32,832 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 1d
+2023-05-26 12:08:32,832 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2023-05-26 12:08:32,833 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2023-05-26 12:08:32,833 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2023-05-26 12:08:32,834 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2023-05-26 12:08:32,834 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2023-05-26 12:08:32,835 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2023-05-26 12:08:32,835 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 'stoploss_on_exchange_interval': 60}
+2023-05-26 12:08:32,836 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2023-05-26 12:08:32,836 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2023-05-26 12:08:32,837 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: 1000
+2023-05-26 12:08:32,837 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using protections: []
+2023-05-26 12:08:32,838 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 25
+2023-05-26 12:08:32,838 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2023-05-26 12:08:32,839 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2023-05-26 12:08:32,839 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2023-05-26 12:08:32,840 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2023-05-26 12:08:32,840 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2023-05-26 12:08:32,841 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2023-05-26 12:08:32,841 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2023-05-26 12:08:32,842 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: True
+2023-05-26 12:08:32,842 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2023-05-26 12:08:32,843 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 1
+2023-05-26 12:08:32,843 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2023-05-26 12:08:32,848 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2023-05-26 12:08:32,849 - freqtrade.exchange.exchange - INFO - Using CCXT 3.0.75
+2023-05-26 12:08:32,849 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}}
+2023-05-26 12:08:32,861 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}}
+2023-05-26 12:08:32,872 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
