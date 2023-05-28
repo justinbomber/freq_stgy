@@ -88,6 +88,6 @@ To use this strategy, you need to configure it in your Freqtrade configuration f
 
 You can customize the parameters according to your preferences.
 
-##Disclaimer
+## Disclaimer
 
 This strategy is provided for educational and informational purposes only. Use it at your own risk. The author and OpenAI do not guarantee any profits or outcomes from using this strategy. Cryptocurrency trading involves risk
