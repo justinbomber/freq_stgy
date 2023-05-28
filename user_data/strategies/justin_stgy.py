@@ -258,3 +258,7 @@ class justinstrategy(IStrategy):
     def rsi(self, df: DataFrame, period):
         return ta.RSI(df, timeperiod=period)
 
+    def macd(self, df: DataFrame, fastperiod, slowperiod, signalperiod):
+        return ta.MACD(df, fastperiod=fastperiod, slowperiod=slowperiod, signalperiod=signalperiod)
+
+
